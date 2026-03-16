@@ -10,6 +10,8 @@ public class Product {
 		this.name = name;
 		this.basePrice = basePrice;
 	}
+	
+	public Product(){}
 
 	public String getId() {
 		return id;
