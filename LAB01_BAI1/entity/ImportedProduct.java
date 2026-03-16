@@ -9,6 +9,9 @@ public class ImportedProduct extends Product{
 		this.importTaxRate = importedTaxRate;
 		this.shippingFee = shippingFee;
 	}
+
+	public ImportedProduct(){}	
+	
 	public double getImportTaxRate() {
 		return importTaxRate;
 	}
