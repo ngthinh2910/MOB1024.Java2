@@ -1,4 +1,4 @@
-package Application;
+	package Application;
 
 import java.util.ArrayList;
 
@@ -19,6 +19,10 @@ public class Run {
 		listProduct.add(pd03);
 		listProduct.add(pd04);
 		listProduct.add(pd05);
+		
+		ImportedProductDAO pd06 = new ImportedProductDAO();
+		pd06.NewImportedProduct();
+		listProduct.add(pd06);
 		
 		System.out.println("Danh sách sản phẩm: ");
 		for (Product product : listProduct) {
